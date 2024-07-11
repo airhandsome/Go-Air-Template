@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package api;
+
+message ExampleRequest {
+  string id = 1;
+}
+
+message ExampleResponse {
+  string result = 1;
+}

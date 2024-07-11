@@ -1,0 +1,29 @@
+# config/config.yaml
+
+# PostgreSQL configuration
+psql:
+  host: localhost
+  port: 5432
+  user: myuser
+  password: mysecretpassword
+  database: mydatabase
+  sslmode: disable
+
+# Redis configuration
+redis:
+  address: localhost:6379
+  password: ""
+  db: 0
+  poolSize: 10
+  minIdleConns: 5
+  dialTimeout: 5
+  readTimeout: 3
+  writeTimeout: 3
+
+# MongoDB configuration
+mongodb:
+  uri: mongodb://localhost:27017
+  dbname: mydatabase
+  username: myuser
+  password: mysecretpassword
+  timeout: 10
