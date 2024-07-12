@@ -1,8 +1,8 @@
-# 互联网大厂工作的一天 - VLOG框架
+# Go Air Template代码结构框架
 
 ## 简介
 
-这个框架旨在帮助用户快速创建一个关于互联网大厂工作一天的VLOG。它集成了多种工具和库，如 `protoc-gen-grpc-gateway`、`protoc-gen-swagger`、XO、Viper 和 Cobra，以提供完整的开发体验。
+这个框架旨在帮助用户快速创建一个项目框架。它集成了多种工具和库，如 `protoc-gen-grpc-gateway`、`protoc-gen-swagger`、`XO`、`Viper` 和 `Cobra`，以提供完整的开发体验。
 
 ## 目录说明
 
@@ -74,9 +74,9 @@
 ## 安装和使用
 
 1. **安装依赖**: 使用 `go get` 命令安装必要的库和工具。
-2. **运行VLOG**: 运行 `make run` 命令以启动VLOG。
+2. **运行main**: 运行 `make run` 命令以启动应用。
 3. **生成代码**: 使用 `make generate` 命令来生成Protocol Buffers、Swagger和Go代码。
-4. **创建VLOG**: 使用 `make sql-xo` 命令来生成数据库模型和操作函数。
+4. **创建数据库模型**: 使用 `make sql-xo` 命令来生成数据库模型和操作函数。
 5. **代码风格检查**: 使用 `make lint` 命令来检查代码风格。
 
 ## 注意事项
